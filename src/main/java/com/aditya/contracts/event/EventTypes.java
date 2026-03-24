@@ -20,4 +20,9 @@ public final class EventTypes {
     public static final String VARIANT_CREATED = "VariantCreated";
     public static final String VARIANT_UPDATED = "VariantUpdated";
     public static final String VARIANT_DELETED = "VariantDeleted";
+    public static final String ORDER_CREATED = "ORDER_CREATED";
+
+    // future:
+    public static final String ORDER_CONFIRMED = "ORDER_CONFIRMED";
+    public static final String ORDER_FAILED = "ORDER_FAILED";
 }
