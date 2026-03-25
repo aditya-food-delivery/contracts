@@ -20,9 +20,13 @@ public final class EventTypes {
     public static final String VARIANT_CREATED = "VariantCreated";
     public static final String VARIANT_UPDATED = "VariantUpdated";
     public static final String VARIANT_DELETED = "VariantDeleted";
-    public static final String ORDER_CREATED = "ORDER_CREATED";
+    public static final String ORDER_CREATED = "OrderCreated";
 
-    // future:
-    public static final String ORDER_CONFIRMED = "ORDER_CONFIRMED";
-    public static final String ORDER_FAILED = "ORDER_FAILED";
+
+    public static final String ORDER_CONFIRMED = "OrderConfirmed";
+    public static final String ORDER_FAILED = "OrderFailed";
+    public static final String PAYMENT_COMPLETED = "PaymentCompleted";
+    public static final String PAYMENT_FAILED = "PaymentFailed";
+
+
 }

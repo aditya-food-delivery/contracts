@@ -9,5 +9,6 @@ public final class AggregateTypes {
     public static final String MENU_ITEM = "MENU_ITEM";
     public static final String VARIANT = "ITEM_VARIANT";
     public static final String ORDER = "ORDER";
+    public static final String PAYMENT = "PAYMENT";
 
-}
+   }
