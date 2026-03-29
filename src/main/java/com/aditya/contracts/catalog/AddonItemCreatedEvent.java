@@ -1,24 +1,16 @@
 package com.aditya.contracts.catalog;
 
 
-import lombok.*;
-
 import java.math.BigDecimal;
 import java.util.UUID;
 
-@Getter
-@Setter
-@Builder
-@NoArgsConstructor
-@AllArgsConstructor
-public class VariantCreatedEvent {
+public class AddonItemCreatedEvent {
 
-    private UUID variantId;
+    private UUID addonItemId;
+    private UUID addonGroupId;
     private UUID itemId;
     private UUID restaurantId;
 
     private String name;
     private BigDecimal price;
-
-    private Boolean isDefault;
 }

@@ -14,6 +14,7 @@ import java.util.UUID;
 @NoArgsConstructor
 @AllArgsConstructor
 public class MenuCategoryDeletedEvent {
-    private UUID id;
 
+    private UUID categoryId;
+    private UUID restaurantId;
 }

@@ -14,6 +14,7 @@ import java.util.UUID;
 @AllArgsConstructor
 public class VariantDeletedEvent {
 
-    private UUID id;
-
+    private UUID variantId;
+    private UUID itemId;
+    private UUID restaurantId;
 }

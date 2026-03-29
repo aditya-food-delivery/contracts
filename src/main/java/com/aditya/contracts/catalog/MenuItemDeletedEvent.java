@@ -13,6 +13,7 @@ import java.util.UUID;
 @AllArgsConstructor
 public class MenuItemDeletedEvent {
 
-    private UUID id;
-
+    private UUID itemId;
+    private UUID restaurantId;
+    private UUID categoryId;
 }

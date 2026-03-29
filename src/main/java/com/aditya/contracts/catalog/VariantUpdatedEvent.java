@@ -13,10 +13,14 @@ import java.util.UUID;
 @AllArgsConstructor
 public class VariantUpdatedEvent {
 
-    private UUID id;
+    private UUID variantId;
+    private UUID itemId;
+    private UUID restaurantId;
 
     private String name;
-    private BigDecimal priceOverride;
+    private BigDecimal price;
+
+    private Boolean isDefault;
 
     private Long version;
 }

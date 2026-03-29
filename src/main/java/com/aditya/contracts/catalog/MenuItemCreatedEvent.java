@@ -14,15 +14,18 @@ import java.util.UUID;
 @AllArgsConstructor
 public class MenuItemCreatedEvent {
 
-    private UUID id;
+    private UUID itemId;
     private UUID restaurantId;
     private UUID categoryId;
 
     private String name;
     private String description;
-    private BigDecimal price;
+    private String imageUrl;
 
-    private boolean vegFlag;
-    private String availability;
+    private String vegFlag;
 
+    private Boolean hasVariants;
+    private Boolean hasAddons;
+
+    private Boolean active;
 }

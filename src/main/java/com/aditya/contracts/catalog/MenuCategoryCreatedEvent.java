@@ -12,8 +12,9 @@ import java.util.UUID;
 @AllArgsConstructor
 public class MenuCategoryCreatedEvent {
 
-    private UUID id;
+    private UUID categoryId;
     private UUID restaurantId;
+
     private String name;
     private Integer displayOrder;
 }
