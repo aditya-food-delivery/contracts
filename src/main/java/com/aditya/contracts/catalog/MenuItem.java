@@ -26,5 +26,7 @@ public class MenuItem {
     private Boolean hasVariants;
     private Boolean hasAddons;
 
+    private boolean deleted;
+
     private Boolean active;
 }
