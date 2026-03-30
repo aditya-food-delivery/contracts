@@ -23,4 +23,5 @@ public class AddonGroup {
     private Integer minSelection;
     private Integer maxSelection;
     private Boolean required;
+    private boolean deleted;
 }

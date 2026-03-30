@@ -21,4 +21,5 @@ public class ItemVariant {
     private BigDecimal price;
 
     private Boolean isDefault;
+    private boolean deleted;
 }

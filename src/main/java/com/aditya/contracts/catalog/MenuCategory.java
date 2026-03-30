@@ -17,4 +17,5 @@ public class MenuCategory {
 
     private String name;
     private Integer displayOrder;
+    private boolean deleted;
 }

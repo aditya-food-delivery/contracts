@@ -23,4 +23,6 @@ public class AddonItem {
 
     private String name;
     private BigDecimal price;
+    private boolean deleted;
+    private boolean available;
 }

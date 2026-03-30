@@ -27,6 +27,8 @@ public class Restaurant {
     private Integer costForTwo;
     private String priceRange;
 
+    private String coverImageUrl;
+
     private Boolean pureVeg;
 
     private String city;
