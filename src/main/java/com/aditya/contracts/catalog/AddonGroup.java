@@ -6,7 +6,6 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
-import java.math.BigDecimal;
 import java.util.UUID;
 
 @Getter
@@ -14,13 +13,14 @@ import java.util.UUID;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class AddonItemCreatedEvent {
+public class AddonGroup {
 
-    private UUID addonItemId;
     private UUID addonGroupId;
     private UUID itemId;
     private UUID restaurantId;
 
     private String name;
-    private BigDecimal price;
+    private Integer minSelection;
+    private Integer maxSelection;
+    private Boolean required;
 }

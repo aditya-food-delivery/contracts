@@ -4,7 +4,6 @@ package com.aditya.contracts.catalog;
 
 import lombok.*;
 
-import java.math.BigDecimal;
 import java.util.UUID;
 
 @Getter
@@ -12,7 +11,7 @@ import java.util.UUID;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class MenuItemCreatedEvent {
+public class MenuItem {
 
     private UUID itemId;
     private UUID restaurantId;

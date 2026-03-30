@@ -11,7 +11,7 @@ import java.util.UUID;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor(force = true)
-public class RestaurantCreatedEvent {
+public class Restaurant {
 
     private UUID restaurantId;
     private String name;

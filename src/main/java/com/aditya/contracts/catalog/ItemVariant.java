@@ -3,6 +3,7 @@ package com.aditya.contracts.catalog;
 
 import lombok.*;
 
+import java.math.BigDecimal;
 import java.util.UUID;
 
 @Getter
@@ -10,11 +11,14 @@ import java.util.UUID;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class MenuCategoryCreatedEvent {
+public class ItemVariant {
 
-    private UUID categoryId;
+    private UUID variantId;
+    private UUID itemId;
     private UUID restaurantId;
 
     private String name;
-    private Integer displayOrder;
+    private BigDecimal price;
+
+    private Boolean isDefault;
 }
